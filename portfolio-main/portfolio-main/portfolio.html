@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woojin`s portfolio</title>
+    <meta name="description" content="Portfolio for world-reowned software engineer Woojin">
+    <meta name="author" content="woojin">
+    <link rel="icon" type="image/png" href="image/flower.png"/>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/23239a7e90.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- font-family: 'Open Sans', sans-serif; -->
+<link rel="stylesheet" href="style.css"/>
+<script src="main.js" defer></script>
+
+
+    <!-- NavBar -->
+    <nav id="Navbar">      
+        <div class="navbar__logo">
+            <i class="fab fa-diaspora"></i>
+            <a href="#">김우진</a>
+        </div>
+        <div class="navbar__menu">
+            <ul class="navbar__menu" id="navbar__menu">
+                <li id="#home" class="navbar__menu__item active" data-id="#home">Home</li>
+                <li id="#about" class="navbar__menu__item" data-id="#about">About</li>
+                <li id="#skills" class="navbar__menu__item" data-id="#skills">Skills</li>
+                <li id="#work" class="navbar__menu__item" data-id="#work">My work</li>
+                <li id="#testimonials" class="navbar__menu__item" data-id="#testimonials">Testimonials</li>
+                <li id="#contact" class="navbar__menu__item" data-id="#contact">Contact</li>
+            </ul>
+        </div>
+
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-hamburger"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="image\IMG_1813-361-김우진-파일.jpg" alt="woojin`s profile photo"
+            class="home_avatar"/>
+            <h1 class="home__title">Hello,<br />I'm Coder</h1>
+            <h2 class="home__description">backend developer</h2>
+            <button class="home__contact" data-id="#contact">Contact Me</button>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <!-- 타이틀은 공통적으로 쓰일꺼라 클래스를 안만들게~ -->
+        <h1>About me</h1>
+        <img src="image/—Pngtree—vector-grade honor_1741177 (2).png" alt="LeagueOflegend" class="job__logo">
+        <div text-align="center">
+            <div class="job">
+             <table class="ce"         
+                    width="95%"
+                    height="100px"
+                    >
+                    <thead>
+                        <tr align="center" bgcolor="white" >
+                            <th>자격증</th>
+                            <th>발행기관</th>
+                            <th>합격구분</th>
+                            <th>취득일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr align="center" bgcolor="white">
+                            <td>정보처리산업기사</td>
+                            <td>한국산업인력공단</td>
+                            <td></td>
+                            <td>2020.08.28</td>
+                        </tr>
+                        <tr align="center" bgcolor="white">
+                          <td>네트워크관리사 2급</td>
+                          <td>한국정보통신자격협회</td>
+                          <td>2급</td>
+                          <td>2015-03-24</td>
+                        </tr>
+                    </tbody>
+             </table>
+            </div>
+        </div>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major__title">Front-end</h2>
+                <div class="major__description">
+                    HTML,CSS,JavaScript,JQuery,thymeleaf
+                </div>
+            </div>
+            <div class="major">
+               
+            
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h2 class="major__title">Back-end</h2>
+                <div class="major__description">
+                    Java,JSP,Oracle, <br />Spring Boot,Spring Mybatis <br />
+                    Spring JPA,Spring Data JPA <br /> Spring Security,QueryDsl <br/ >      
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <!-- skills -->
+    <section id="skills" class="section">
+    <div class="section__container">
+            <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+           기술 수준
+        </p>
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset__title">Skills</h3>
+                <div class="skill">
+                    <div class="skill__description">
+                        <span>HTML</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 60%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>CSS</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 60%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>JavaScript</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 40%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>JAVA</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 70%;"></div>
+                    </div>               
+                    <div class="skill__description">
+                        <span>JSP</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 60%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>Oracle</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 55%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>Spring Mybatis</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 60%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>Spring JPA</span>
+                        <span>55%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 55%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>Spring Security</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 40%;"></div>
+                    </div>
+                    <div class="skill__description">
+                        <span>QueryDsl</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value" style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset__right">
+                <div class="tools">
+                    <h3 class="skillset__title">Tools</h3>    
+                    <ul class="tools__list">
+                        <li><span>Suite side Spring</span></li>
+                        <li><span>Eclipse</span></li>
+                        <li><span>VScode</span></li>
+                        <li><span>Oracle</span></li>
+                        <li><span>IntelliJ</span></li>
+                    </ul>  
+                </div>
+                <div class="etc">
+                    <h3 class="skillset__title">협업 프로젝트</h3>
+                    <ul class="etc__list">
+                        <li><span>- 토이프로젝트 모임 웹사이트 구현 
+                            <br /> 사용자들이 원하는 프로젝트에 참여할 수 있는 웹사이트 </span></li>
+                        <li><span>Rest API 방식 구현</span></li>
+                        <li><span>1. SpringSecurity Oauth2-Client 라이브러리를 사용하여 소셜로그인 (github,kakao,google) JWT Token의 SignatureAlgorithm.HS512 암호화 구현 </span></li>
+                        <li><span>2. 사용자가 원하는 프로젝트에 참여할 수 있도록 QueryDsl사용하여 프로그래밍 언어 선택시 필터링, 검색기능 추가 </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </section>
+    <!-- work -->
+    <section id="work" class="section">
+       <div class="section__container"> 
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button data-filter="*" class="category__btn active">All<span class="category__count">5</span></button>
+            <button data-filter="front-end" class="category__btn">Front-end<span class="category__count">2</span></button>
+            <button data-filter="back-end" class="category__btn">Back-end<span class="category__count">3</span></button>
+        </div>
+        <div class="work__projects">
+            <a href="https://github.com/woojin126/portfolio" class="project"  target="blank" data-type="front-end" >
+            <img class="project__img" src="image/cloth.png" alt="portfolio">
+            <div class="project__description">
+                <h3>portfolio</h3>
+            </div>
+            </a>
+            <a href="https://github.com/woojin126/ShoppingGame" class="project" target="blank" data-type="front-end">
+                <img class="project__img" src="image/cloth.png" alt="Shopping Game">
+                <div class="project__description">
+                    <h3>Shopping Game</h3>
+                </div>
+            </a>
+        
+       
+            <a href="https://github.com/TOPHAE/topha-back"  class="project" target="blank" data-type="back-end" >
+                <img class="project__img" src="image\projects.png" alt="project meeting">
+                <div class="project__description">
+                    <h3>project meeting</h3>
+                </div>
+            </a>
+            <a href="https://github.com/woojin126/boardMybatis"  class="project" target="blank" data-type="back-end" >
+                <img class="project__img" src="image\게시판.png" alt="board">
+                <div class="project__description">
+                    <h3>Mybatis board</h3>       
+                </div>
+            </a>
+            <a href="https://github.com/woojin126/blog"  class="project" target="blank" data-type="back-end">
+                <img class="project__img" src="image\블로그.PNG" alt="blog">
+                <div class="project__description">
+                    <h3>blog</h3>
+                </div>
+            </a>
+        </div>
+       </div>
+    </section>
+    <!-- testimonials -->
+    <section id="testimonials" class="section">
+       <div class="section__container">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="image\testimonial\people.jpg"
+                alt="People"
+                class="testimonial__avatar"/>
+                <div class="testimonial__speech-bubble">
+                    <p>
+
+                    </p>
+                    <p class="name"><a href="#"></a>기억보단 기록을</p>
+                </div>
+            </div>
+      
+        
+        </div>
+       </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">woojin126@naver.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/woojin126" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://blog.naver.com/woojin126" target="_blank">
+                <img src="image\블로그2.png">
+            </a>
+        </div>
+        <a class="contact__rights">
+            한국IT직업전문학교 2013졸업
+        </a>
+    </section>
+  
+    <button class="arrow-up"><i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+</html>
