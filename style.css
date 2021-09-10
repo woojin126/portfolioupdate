@@ -421,6 +421,7 @@ p{
 /* Testimonial */
 #testimonials {
     background-color: var(--color-light-white);
+    margin: 0px;
     
   }
   
@@ -434,6 +435,7 @@ p{
   }
   
   .testimonial__avatar {
+    margin-left: -30px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -448,7 +450,7 @@ p{
   }
   
   .testimonial__speech-bubble {
-    padding: 18px;
+    
     background-color: var(--color-white);
     border-radius: var(--size-border-radius);
   
